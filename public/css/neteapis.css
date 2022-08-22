@@ -1,0 +1,339 @@
+:root{
+    --color_primario:rgb(58, 139, 82);
+    --color_secundario:rgb(51, 114, 70);
+}
+
+
+.main-header nav{
+    background-color: var(--color_primario)  !important;
+    color: white !important;
+}
+
+.main-header .logo{
+    background-color: var(--color_primario)!important;
+    color: white !important; 
+}
+.sidebar-toggle{
+    color: white !important;
+}
+.sidebar-toggle:hover{
+    background: rgba(203, 209, 218, 0.063) !important;
+}
+
+.sidebar-toggle b{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+
+.header{
+    background-color: var(--color_primario)  !important;
+}
+.main-sidebar{
+    background-color: var(--color_secundario)  !important;
+    border-right:  1px solid rgba(255, 249, 249, 0.093);
+}
+.sidebar-menu li a{
+    color: white !important;
+}
+
+.sidebar-menu li a:hover{
+    background-color: rgba(225, 207, 207, 0.215) !important;
+    color: white !important;
+}
+
+
+.treeview a{
+    content: none !important;
+    background-color: var(--color_primario)!important;
+}
+
+.sidebar-menu li a::after{
+    background: rgb(139, 11, 11) !important;
+}
+
+.sidebar-menu .active .tirulo_menu{
+    background-color: var(--color_primario)!important;
+    
+}
+.treeview-menu{
+    padding:  0 !important;
+}
+
+.treeview-menu li{
+    padding-left: 20px !important;
+}
+
+.sidebar-menu li {
+    background: var(--color_secundario);
+}
+
+.treeview-menu li {
+    background: var(--color_primario) !important;
+}
+.treeview-menu li a{
+    background: var(--color_primario) !important;
+}
+
+.menu-open{
+    background-color: var(--color_secundario) !important;
+}
+
+.skin-blue{
+    background-color: var(--color_secundario) !important;
+}
+
+
+.user-header{
+    background: var(--color_secundario) !important;
+}
+.user-panel .info a,p{
+    color: rgb(239, 237, 237);
+}
+.line{
+    color:rgb(26, 255, 0);
+}
+
+
+
+.alert{
+    border-radius: 0;
+    border: 0;
+}
+
+.callout{
+    background: rgb(226, 226, 226);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.callout button{
+    padding: 5px 30px;
+    border: none;
+    background-color: var(--color_primario);
+    color: white;
+}
+.callout button:hover{
+    background-color: var(--color_secundario);
+}
+
+.cards{
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.publicacion{
+    padding:  10px;
+
+}
+.publicacion .tarjeta_puclicacion{
+    background: rgb(237, 232, 232);
+    padding:  0;
+    border-radius: 10px;
+}
+
+.publicacion_header{
+    width: 100%;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 888 !important;
+    
+}
+.publicacion_header .usuario_public{
+    display: flex;
+}
+.publicacion_header .public_info{
+    padding: 0;
+    margin: 0;
+    padding: 8px;
+}
+.publicacion_header .public_info h3{
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+.publicacion_header .public_info p{
+    padding: 0;
+    margin: 0;
+    color:rgb(98, 97, 97);
+}
+.publicacion_header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.publicacion .publicacion_body{
+    width: 100%;
+}
+.publicacion .publicacion_body p{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+.publicacion .publicacion_body .imagen_publicación{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    height: 400px;
+    z-index: 777 !important;
+    overflow: hidden;
+
+}
+
+.publicacion .publicacion_body .imagen_publicación img{
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    z-index: 777 !important;
+}
+
+
+
+.publicacion .publicacion_body .acciones_public{
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.publicacion .publicacion_body .acciones_public a{
+    padding: 10px 20px;
+}
+
+.dropdown-toggle{ 
+    color: white !important;
+}
+
+.open .dropdown-toggle{
+    background: rgba(63, 124, 73, 0.832) !important;
+    color: rgb(255, 255, 255) !important;
+}
+.open .dropdown-toggle span i{
+    transform: rotate(180deg);
+    transition: .5s;
+}
+.dropdown-toggle span i{
+    transition: .5s;
+}
+.dropdown-toggle:hover{
+    background: rgba(230, 224, 224, 0.148) !important;
+    color: white !important;
+}
+
+.user-footer{
+    display: block;
+}
+.user-menu .dropdown-menu{
+    width: 200px !important;
+    
+}
+
+ .dropdown-menu .header{
+    color: white !important;
+}
+
+
+.user-menu .dropdown-menu .user-footer{
+    padding: 5px !important;
+    color: aliceblue;
+}
+
+
+.user-menu .dropdown-menu .user-footer a{
+    margin-bottom: 2px;
+    border: 0;
+    text-align: left;
+  
+
+
+}
+
+
+
+
+
+@media (max-width: 765px) {
+    .main-header .logo{
+        background-color: var(--color_primario)!important;
+        border-bottom: 1px solid rgb(90, 85, 85) !important;
+        display: none;
+        
+    }
+    .content-wrapper{
+        padding-top:50px !important;
+    }
+    .content-header{
+        padding: 0;
+    }
+    .content{
+        padding: 5px;
+    }
+
+    .callout{
+        display:block;
+    }
+    .callout button{
+        margin-top: 10px;
+        padding: 5px 30px;
+
+    }
+    .publicacion{
+        padding:  0px;
+        padding-bottom: 10px;
+    
+    }
+    .publicacion .tarjeta_puclicacion{
+        border-radius: 0px;
+    }
+    .publicacion .publicacion_body .imagen_publicación{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        width: 100%;
+        height: auto;
+        z-index: 777 !important;
+        overflow: hidden;
+    
+    }
+
+    .sidebar-open{
+        width: 100% !important;
+    }
+    
+    .sidebar-open .main-sidebar{
+        position: fixed;
+        display: block;
+    }
+    
+    .sidebar-open .content-wrapper{
+        width: 100%;
+        left: -230px;
+        position: absolute;
+    }
+
+}
+
+@media (min-width: 765px) {
+
+    .sidebar-toggle{
+        display:none;
+    }
+
+    @supports(object-fit: cover){
+        .publicacion .publicacion_body .imagen_publicación img{
+          height: 100%;
+          object-fit: cover;
+          object-position: center center;
+        }
+    }
+}
